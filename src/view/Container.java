@@ -11,7 +11,7 @@ public class Container extends JFrame {
         add(new Fase());
         
         setTitle("Space Ship"); //titulo da janela
-        setSize(800, 500); //tamanho da janela (largura/altura)
+        setSize(800, 500); //tamanho da janela (largura/altura).
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //fechar janela
         setLocationRelativeTo(null); //centraliza janela na tela
         setResizable(false); //responsividade da janela
